@@ -1,0 +1,1228 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fo",
+				"font_size"
+			],
+			[
+				"table",
+				"tableName"
+			],
+			[
+				"ilPara",
+				"ilPartameters"
+			],
+			[
+				"para",
+				"parameters"
+			],
+			[
+				"getPara",
+				"getParametersTimer"
+			],
+			[
+				"param",
+				"parameterAnimTimer"
+			],
+			[
+				"parameters",
+				"parametersLabel"
+			],
+			[
+				"destroy",
+				"destroyViz"
+			],
+			[
+				"view",
+				"viewUrl"
+			],
+			[
+				"file_",
+				"file_put_contents"
+			],
+			[
+				"uns",
+				"unset"
+			],
+			[
+				"key",
+				"array_key_exists"
+			],
+			[
+				"array",
+				"array_to_send"
+			],
+			[
+				"for",
+				"for	for …"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"load",
+				"loadWorkbooksPreviews"
+			],
+			[
+				"work",
+				"workbooksDiv"
+			],
+			[
+				"tableau",
+				"tableau-push-email"
+			],
+			[
+				"ca",
+				"cacheDom"
+			],
+			[
+				"modal",
+				"modalTitleView"
+			],
+			[
+				"formV",
+				"formViewName"
+			],
+			[
+				"form",
+				"formViewId"
+			],
+			[
+				"viewN",
+				"formViewName"
+			],
+			[
+				"titl",
+				"modalTitleView"
+			],
+			[
+				"sc",
+				"scheduleId"
+			],
+			[
+				"app",
+				"appendViews"
+			],
+			[
+				"show",
+				"showExpiredAlert"
+			],
+			[
+				"formWo",
+				"formWorkbookId"
+			],
+			[
+				"append",
+				"appendWorkbooks"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"url",
+				"urlencode"
+			],
+			[
+				"sche",
+				"schedule_id"
+			],
+			[
+				"content",
+				"content_type"
+			],
+			[
+				"get_work",
+				"get_workbook_img"
+			],
+			[
+				"workbook",
+				"workbook_name"
+			],
+			[
+				"margin",
+				"margin-left"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 830,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 110.0,
+		"last_filter": "projec",
+		"selected_items":
+		[
+			[
+				"projec",
+				"Project: Save As"
+			],
+			[
+				"toggle",
+				"View: Toggle Tabs"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"rename	",
+				"ANF: Rename File"
+			],
+			[
+				"renam",
+				"ANF: Rename File"
+			],
+			[
+				"rena",
+				"ANF: Rename File"
+			],
+			[
+				"rename",
+				"ANF: Rename File"
+			],
+			[
+				"delete",
+				"ANF: Delete Current File"
+			],
+			[
+				"delete cu",
+				"ANF: Delete Current File"
+			],
+			[
+				"anf",
+				"ANF: Delete File"
+			],
+			[
+				"toggle sta",
+				"View: Toggle Status Bar"
+			],
+			[
+				"togg",
+				"View: Toggle Status Bar"
+			],
+			[
+				"intall",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"toggle ta",
+				"View: Toggle Tabs"
+			],
+			[
+				"status",
+				"View: Toggle Status Bar"
+			],
+			[
+				"mater",
+				"Material Theme: Configuration"
+			],
+			[
+				"theme",
+				"Material Theme: Configuration"
+			],
+			[
+				"mateir",
+				"Material Theme: Configuration"
+			],
+			[
+				"material ",
+				"Material Theme: Configuration"
+			],
+			[
+				"extrac",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"act",
+				"Material Theme: Activate theme"
+			],
+			[
+				"materia",
+				"Snippet: Materialize checkbox"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"mul",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"markdo	",
+				"Set Syntax: Markdown"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"stop de",
+				"Xdebug: Stop Debugging"
+			],
+			[
+				"break",
+				"Xdebug: Clear All Breakpoints"
+			],
+			[
+				"rest",
+				"Xdebug: Restart Session"
+			],
+			[
+				"restar",
+				"Xdebug: Restart Session"
+			],
+			[
+				"restart",
+				"Xdebug: Restart Session"
+			],
+			[
+				"remo",
+				"Xdebug: Add/Remove Breakpoint"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"add",
+				"Xdebug: Add/Remove Breakpoint"
+			],
+			[
+				"xdebug",
+				"Xdebug: Breakpoint - Run"
+			],
+			[
+				"run",
+				"Permute Lines: Unique"
+			],
+			[
+				"start",
+				"Xdebug: Restart Session"
+			],
+			[
+				"a",
+				"Xdebug: Add/Remove Breakpoint"
+			],
+			[
+				"stop",
+				"Xdebug: Stop Debugging (Close Windows)"
+			],
+			[
+				"xde",
+				"Xdebug: Stop Debugging"
+			],
+			[
+				"resta",
+				"Xdebug: Restart Session"
+			],
+			[
+				"berak",
+				"Xdebug: Add/Remove Breakpoint"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"clear",
+				"Xdebug: Clear All Breakpoints"
+			],
+			[
+				"celar",
+				"Xdebug: Clear All Breakpoints"
+			],
+			[
+				"res",
+				"Xdebug: Restart Session"
+			],
+			[
+				"STOP",
+				"Xdebug: Stop Debugging (Close Windows)"
+			],
+			[
+				"START",
+				"Xdebug: Start Debugging"
+			],
+			[
+				"re",
+				"Xdebug: Restart Session"
+			],
+			[
+				"wat",
+				"Xdebug: Set Watch Expression"
+			],
+			[
+				"XML",
+				"Set Syntax: XML"
+			],
+			[
+				"aSP",
+				"Set Syntax: ASP"
+			],
+			[
+				"brea",
+				"Xdebug: Clear All Breakpoints"
+			],
+			[
+				"clear al",
+				"Xdebug: Clear All Breakpoints"
+			],
+			[
+				"add brea",
+				"Xdebug: Add/Remove Breakpoint"
+			],
+			[
+				"xdeb",
+				"Xdebug: Stop Debugging (Close Windows)"
+			],
+			[
+				"xdebu",
+				"Preferences: Xdebug Settings – Default"
+			],
+			[
+				"star",
+				"Xdebug: Restart Session"
+			],
+			[
+				"sta",
+				"Xdebug: Start Debugging"
+			],
+			[
+				"debu",
+				"Xdebug: Breakpoint - Run"
+			],
+			[
+				"start ",
+				"Xdebug: Start Debugging"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"notes",
+				"Set Syntax: Notes"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"batch",
+				"Set Syntax: Batch File"
+			],
+			[
+				"fotm",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"emm",
+				"Emmet: Balance (inward)"
+			],
+			[
+				"emme",
+				"Emmet: Balance (inward)"
+			],
+			[
+				"emmet ",
+				"Emmet: Balance (outward)"
+			],
+			[
+				"em",
+				"Emmet: Balance (inward)"
+			],
+			[
+				"emmet",
+				"Emmet: Balance (inward)"
+			],
+			[
+				"r",
+				"Package Control: Remove Package"
+			],
+			[
+				"list pac",
+				"Package Control: List Packages"
+			],
+			[
+				"forma",
+				"CodeFormatter: Format as VBScript Syntax"
+			],
+			[
+				"FORMA",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"FORMAT",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"HTML",
+				"Set Syntax: HTML"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"syn php",
+				"Set Syntax: PHP"
+			],
+			[
+				"instaa",
+				"Package Control: Install Package"
+			],
+			[
+				"insall",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 496.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/kingsun/workspace/ng-Coursera/ng-Coursera/module1-solution/assignment1-starter-code"
+	],
+	"file_history":
+	[
+		"/C/Users/kingsun/workspace/Code/Laravel/.env",
+		"/C/Users/kingsun/.gitconfig",
+		"/C/Users/kingsun/.ssh/github_rsa.pub",
+		"/C/Users/kingsun/.ssh/github_rsa",
+		"/C/Users/kingsun/.ssh/id_rsa.pub",
+		"/C/Users/kingsun/.ssh/old/known_hosts",
+		"/H/Doom/Doom-CPY/RARBG.com.txt",
+		"/H/Doom/Doom-CPY/cpy-doom.nfo",
+		"/C/AdwCleaner/AdwCleaner[C0].txt",
+		"/C/Users/kingsun/workspace/Code/Laravel/resources/views/welcome.blade.php",
+		"/C/Users/kingsun/workspace/Code/Laravel/app/Http/Controllers/Controller.php",
+		"/C/Users/kingsun/AppData/Roaming/Composer/vendor/laravel/homestead/Vagrantfile",
+		"/C/Users/kingsun/AppData/Roaming/Composer/vendor/laravel/homestead/scripts/homestead.rb",
+		"/C/Users/kingsun/.homestead/Homestead.yaml",
+		"/C/Users/kingsun/workspace/Code/Vagrantfile",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/kingsun/AppData/Roaming/Composer/vendor/laravel/homestead/init.bat",
+		"/C/Users/kingsun/AppData/Roaming/Composer/vendor/laravel/homestead/homestead",
+		"/C/Users/kingsun/workspace/Code/Homestead.yaml",
+		"/C/Users/kingsun/.vagrant.d/setup_version",
+		"/C/Users/kingsun/.vagrant.d/boxes/laravel-VAGRANTSLASH-homestead/0.5.0/virtualbox/Vagrantfile",
+		"/C/Users/kingsun/AppData/Roaming/Sublime Text 3/Packages/AdvancedNewFile/README.md",
+		"/C/Users/kingsun/AppData/Roaming/Sublime Text 3/Packages/AdvancedNewFile/Default (Windows).sublime-keymap",
+		"/C/Users/kingsun/AppData/Roaming/Sublime Text 3/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+		"/C/Users/kingsun/workspace/Code/Laravel/app/Http/Controllers/Another.php",
+		"/C/Users/kingsun/workspace/Code/Laravel/asd.php",
+		"/C/Users/kingsun/workspace/Code/Laravel/app/Http/Controllers/FooController",
+		"/C/Users/kingsun/workspace/Code/Laravel/app/Http/Controllers/newController.php",
+		"/C/wamp/www/delivery/vendor/chuyskywalker/rolling-curl/src/RollingCurl/Request.php",
+		"/C/Users/kingsun/AppData/Roaming/Composer/vendor/laravel/homestead/temp.js",
+		"/C/Users/kingsun/AppData/Roaming/Composer/vendor/laravel/homestead/temp",
+		"/C/Users/kingsun/AppData/Roaming/Composer/vendor/laravel/homestead/src/stubs/LocalizedVagrantfile",
+		"/C/Users/kingsun/AppData/Roaming/Composer/vendor/laravel/homestead/src/stubs/Homestead.yaml",
+		"/C/Users/kingsun/AppData/Roaming/Composer/vendor/laravel/homestead/src/stubs/after.sh",
+		"/C/Users/kingsun/AppData/Roaming/Composer/vendor/laravel/homestead/init.sh",
+		"/C/Users/kingsun/.homestead/after.sh",
+		"/E/Downloads/nm.log",
+		"/E/Downloads/server.log",
+		"/E/Vagrant/embedded/config.yml",
+		"/E/Downloads/server (1).log",
+		"/C/Users/kingsun/Desktop/Delivery.php",
+		"/C/Program Files (x86)/BANDAI NAMCO Games/DARK SOULS - Prepare To Die Edition/DATA/dsfix/tex_override/ReadMe.txt",
+		"/C/Program Files (x86)/BANDAI NAMCO Games/DARK SOULS - Prepare To Die Edition/DATA/SweetFX_preset.txt",
+		"/E/Torrents/No mans sky/No.Man's.Sky.incl.Preorder.DLC-GOG/README.txt",
+		"/C/Users/kingsun/AppData/Local/Temp/Rar$DIa0.852/README.txt",
+		"/E/Torrents/XCOM.2.Update.2-CODEX/XCOM.2.Update.2-CODEX/Update/patchnotes.txt",
+		"/E/DARK SOULS - Prepare To Die Edition/DATA/readme/Readme_es.txt",
+		"/C/Users/kingsun/AppData/Local/Temp/Rar$DIa0.136/ReadMe.txt",
+		"/C/Users/kingsun/AppData/Local/Temp/Rar$DIa0.909/README.txt",
+		"/C/Users/kingsun/AppData/Local/Temp/Rar$DIa0.413/ReadMe.txt",
+		"/C/Users/kingsun/Desktop/Herramientas.txt",
+		"/H/juegos/The Wticher 3/The_Witcher_3_Wild_Hunt-FLT/RARBG.com.txt",
+		"/C/wamp/www/delivery/application/views/main_view.php",
+		"/C/wamp/www/delivery/js/app/modal.js",
+		"/C/wamp/www/delivery/application/views/schedule_modal.php",
+		"/C/wamp/www/delivery/application/controllers/Delivery.php",
+		"/C/wamp/www/delivery/application/models/Schedule.php",
+		"/C/wamp/www/delivery/application/controllers/Main.php",
+		"/C/Users/kingsun/Desktop/ej.sql",
+		"/C/wamp/www/delivery/application/config/custom_config.php",
+		"/C/wamp/www/delivery/cron-log/log.log",
+		"/C/wamp/www/delivery/application/controllers/Test.php",
+		"/C/wamp/www/delivery/application/views/test_view.php",
+		"/C/wamp/www/delivery/application/helpers/tableau_xml_helper.php",
+		"/C/wamp/www/delivery/js/app/appController.js",
+		"/C/wamp/www/delivery/application/config/routes.php",
+		"/C/wamp/www/delivery/application/controllers/Admin.php",
+		"/C/wamp/www/delivery/vendor/chuyskywalker/rolling-curl/src/RollingCurl/RollingCurl.php",
+		"/C/wamp/www/delivery/js/tools/require.js",
+		"/C/wamp/www/delivery/application/views/header_view.php",
+		"/C/wamp/www/delivery/js/lib/main.js",
+		"/C/wamp/www/delivery/application/views/schedules_view.php",
+		"/C/wamp/www/delivery/application/views/ajax_view.php",
+		"/C/wamp/www/delivery/application/views/index.html",
+		"/C/Users/kingsun/Downloads/Ejemplos (1).aspx",
+		"/C/Users/kingsun/Downloads/Ejemplos.aspx (1).cs",
+		"/C/wamp/www/delivery/application/config/config.php",
+		"/C/wamp/www/delivery/application/swiftmailer/swiftmailer/lib/classes/Swift/Attachment.php",
+		"/C/wamp/www/delivery/application/helpers/index.html",
+		"/C/wamp/www/delivery/vendor/composer/autoload_namespaces.php",
+		"/C/wamp/www/delivery/composer.json",
+		"/C/wamp/www/delivery/vendor/composer/autoload_real.php",
+		"/C/Users/kingsun/AppData/Roaming/Sublime Text 3/Packages/User/Xdebug.sublime-settings",
+		"/C/Users/kingsun/AppData/Roaming/Sublime Text 3/Packages/Xdebug Client/Xdebug.sublime-settings",
+		"/C/wamp/www/test.php",
+		"/C/wamp/www/delivery/cron-log/test.log",
+		"/C/wamp/www/code/cats.js",
+		"/C/wamp/www/delivery/js/build/main-minified.js",
+		"/C/wamp/www/delivery/readme.rst",
+		"/C/wamp/www/delivery/application/views/login_view.php",
+		"/C/wamp/www/delivery/extras/docu/Notas",
+		"/C/wamp/www/delivery/.gitignore",
+		"/C/wamp/www/delivery/application/config/database.php",
+		"/C/wamp/www/delivery/js/tools/build.js",
+		"/C/wamp/www/delivery/Gruntfile.js",
+		"/C/wamp/www/a.php",
+		"/C/wamp/www/bp.php",
+		"/C/wamp/www/delivery/js/build/main-ugly.js",
+		"/C/wamp/www/delivery/cron-log/log.txt",
+		"/C/wamp/www/delivery/node_modules/grunt/appveyor.yml",
+		"/C/wamp/www/delivery/js-stage/app-min.js",
+		"/C/wamp/www/delivery/js-stage/app.concat.js",
+		"/C/wamp/www/delivery/docu/Notas",
+		"/C/wamp/www/delivery/js/lib/app.js",
+		"/C/wamp/www/delivery/js/lib/build.js",
+		"/C/wamp/www/delivery/js/lib/build/main-minified.js",
+		"/C/wamp/www/delivery/js/lib/build/out.js",
+		"/C/wamp/www/delivery/assets/css/custom.css",
+		"/C/wamp/www/delivery/js/lib/out.js",
+		"/C/wamp/www/delivery/js/lib/build/obfuscated.js",
+		"/C/wamp/www/delivery/obfuscated.js",
+		"/C/wamp/www/delivery/cron-log/.gitignore",
+		"/C/wamp/www/delivery/application/.htaccess",
+		"/C/wamp/www/delivery/.htaccess",
+		"/C/wamp/www/delivery/application/controllers/Login.php",
+		"/C/schedules/22/Cliente",
+		"/C/wamp/www/delivery/js/lib/build/main.js",
+		"/C/wamp/www/delivery/build.js",
+		"/C/wamp/www/delivery/dist/assets/css/bootstrap.css",
+		"/C/wamp/www/delivery/dist/js/app/appController.js",
+		"/C/wamp/www/delivery/js/app.js",
+		"/C/wamp/www/delivery/js/main.js",
+		"/C/wamp/www/delivery/assets/js/build.config.js",
+		"/C/wamp/www/delivery/assets/js/app.js",
+		"/C/wamp/www/delivery/assets/js/main.js",
+		"/C/wamp/www/delivery/assets/js/lazy/bower.json",
+		"/C/wamp/www/delivery/assets/js/common.js",
+		"/C/wamp/www/delivery/assets/js/app-control.js"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\wamp\\www\\delivery",
+			"C:\\wamp\\www\\delivery\\application\\vendor\\swiftmailer",
+			"C:\\wamp\\www\\delivery\\application\\swiftmailer",
+			"C:\\wamp\\www\\delivery\\application\\vendor\\swiftmailer\\swiftmailer\\lib\\classes\\Swift",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"conf",
+			"vendor",
+			"37,43,57",
+			"ssh",
+			"admin.bi",
+			"temp_metric_integrity_noDetails",
+			"admin.bi",
+			"timeout",
+			"export",
+			"120",
+			"maxReceivedMessageSizeMb",
+			"64",
+			"pdf",
+			"a",
+			"prog",
+			"update_schedule_process_status",
+			"aRequests",
+			"error",
+			"response_info",
+			"public",
+			"validate",
+			"se modi",
+			"data",
+			"prop",
+			"updateModal",
+			"parametersJson",
+			"getParametersTimer",
+			"ulMails",
+			"updateModal",
+			"param",
+			"$('this')",
+			"$('this)",
+			"&",
+			"i",
+			"timer",
+			"timergetParametersTimergetParametersTimergetPara",
+			"timer",
+			"obtenie",
+			"timer",
+			"todo",
+			"getParameters",
+			"handleParametersError",
+			"showExpiredAlert",
+			"time",
+			"parameters",
+			"containerDiv",
+			"-1",
+			"content",
+			"unix",
+			"CURLOPT_TIMEOUT",
+			"time",
+			"timeout",
+			"cache",
+			"baseUrl",
+			"Modal.viewUrl",
+			"viewUrl",
+			"scheduleId",
+			"Modal.scheduleId",
+			"baseUrl",
+			"vizContainer",
+			"url",
+			"split",
+			"php",
+			"getJson",
+			"get",
+			"ajax",
+			"json",
+			"get_trusted",
+			"'</br>'",
+			"</br>",
+			"todo",
+			"deliver",
+			"-2",
+			"update",
+			"Set",
+			"upd",
+			"insert_schedule",
+			"date",
+			"log_mail",
+			"memor",
+			"file saved",
+			"memor",
+			"mandando",
+			"enviand",
+			"enviadn",
+			"KBS",
+			"memori",
+			"prepara",
+			"memory_get_usage",
+			"var",
+			"header",
+			"config",
+			"callbac",
+			"info",
+			"content_type",
+			"mail_helper",
+			"only s",
+			"echo",
+			"date(\"Y-m-d H:i:s\")",
+			"ini",
+			"set",
+			"execute",
+			"ini",
+			"Swift_ByteStream_FileByteStream",
+			"Swift_Image::fromPath",
+			"fromPath",
+			"Swift_Image::fromPath",
+			"TIMEOUT",
+			"timeout",
+			"setHandler",
+			"add",
+			"dump",
+			"getkey",
+			"array_to_send",
+			"30",
+			"keep",
+			"max",
+			"keep",
+			"$rollingCurl = new RollingCurl;",
+			"master",
+			"impersonate_login",
+			"error",
+			"Error: Cannot create object",
+			"object",
+			"error",
+			"create",
+			"var_dump",
+			"array_to_send"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"37,46,57",
+			"PHP_EOL",
+			"'</br>'",
+			"PHP_EOL",
+			">",
+			"<",
+			"myModal",
+			"get_attachment",
+			"["
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 830,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								560,
+								560
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "html",
+							"buffer_scroll_name": "c665b812",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 52.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 74.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 124.0
+	},
+	"pinned_build_system": "",
+	"project": "assignment 1.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"welcom",
+				"resources\\views\\welcome.blade.php"
+			],
+			[
+				"",
+				"app\\Http\\Controllers\\Controller.php"
+			],
+			[
+				"control",
+				"app\\Http\\Controllers\\Controller.php"
+			],
+			[
+				"fooc",
+				"app\\Http\\Controllers\\FooController"
+			],
+			[
+				"controll",
+				"app\\Http\\Controllers\\Controller.php"
+			],
+			[
+				"reques",
+				"vendor\\chuyskywalker\\rolling-curl\\src\\RollingCurl\\Request.php"
+			],
+			[
+				"lice",
+				"license.txt"
+			],
+			[
+				"read",
+				"readme.rst"
+			],
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				"custom",
+				"application\\config\\custom_config.php"
+			],
+			[
+				"log",
+				"cron-log\\log.log"
+			],
+			[
+				"modal",
+				"js\\app\\modal.js"
+			],
+			[
+				"schedule",
+				"application\\views\\schedule_modal.php"
+			],
+			[
+				"d",
+				"application\\controllers\\Delivery.php"
+			],
+			[
+				"route",
+				"application\\config\\routes.php"
+			],
+			[
+				"deliver",
+				"application\\controllers\\Delivery.php"
+			],
+			[
+				"ad",
+				"application\\controllers\\Admin.php"
+			],
+			[
+				"admin",
+				"application\\controllers\\Admin.php"
+			],
+			[
+				"curl",
+				"vendor\\chuyskywalker\\rolling-curl\\src\\RollingCurl\\RollingCurl.php"
+			],
+			[
+				"deliv",
+				"application\\controllers\\Delivery.php"
+			],
+			[
+				"requi",
+				"js\\tools\\require.js"
+			],
+			[
+				"heade",
+				"application\\views\\header_view.php"
+			],
+			[
+				"table",
+				"application\\helpers\\tableau_xml_helper.php"
+			],
+			[
+				"routes",
+				"application\\config\\routes.php"
+			],
+			[
+				"lo",
+				"cron-log\\log.log"
+			],
+			[
+				"main",
+				"application\\controllers\\Main.php"
+			],
+			[
+				"sched",
+				"application\\models\\Schedule.php"
+			],
+			[
+				"tabl",
+				"application\\helpers\\tableau_xml_helper.php"
+			],
+			[
+				"tablea",
+				"application\\helpers\\tableau_xml_helper.php"
+			],
+			[
+				"cust",
+				"application\\config\\custom_config.php"
+			],
+			[
+				"config",
+				"application\\config\\config.php"
+			],
+			[
+				"delive",
+				"application\\controllers\\Delivery.php"
+			],
+			[
+				"schedul",
+				"application\\models\\Schedule.php"
+			],
+			[
+				"deli",
+				"application\\controllers\\Delivery.php"
+			],
+			[
+				"notas",
+				"extras\\docu\\Notas"
+			],
+			[
+				"tab",
+				"application\\helpers\\tableau_xml_helper.php"
+			],
+			[
+				"header",
+				"application\\views\\header_view.php"
+			],
+			[
+				"appcon",
+				"js\\app\\appController.js"
+			],
+			[
+				"delivery",
+				"application\\controllers\\Delivery.php"
+			],
+			[
+				"build.",
+				"js\\tools\\build.js"
+			],
+			[
+				"appcontrol",
+				"js\\app\\appController.js"
+			],
+			[
+				"app",
+				"js\\lib\\app.js"
+			],
+			[
+				"shcedule",
+				"application\\views\\schedule_modal.php"
+			],
+			[
+				"rout",
+				"application\\config\\routes.php"
+			],
+			[
+				"schedue",
+				"application\\models\\Schedule.php"
+			],
+			[
+				"login_view",
+				"application\\views\\login_view.php"
+			],
+			[
+				"login",
+				"application\\controllers\\Login.php"
+			],
+			[
+				"main_",
+				"application\\views\\main_view.php"
+			],
+			[
+				"schedle",
+				"application\\views\\schedule_modal.php"
+			],
+			[
+				"tableau",
+				"application\\helpers\\tableau_xml_helper.php"
+			],
+			[
+				"sche",
+				"application\\models\\Schedule.php"
+			],
+			[
+				"sched.",
+				"application\\models\\Schedule.php"
+			],
+			[
+				"sch",
+				"application\\models\\Schedule.php"
+			],
+			[
+				"cus",
+				"assets\\css\\custom.css"
+			],
+			[
+				"del",
+				"application\\controllers\\Delivery.php"
+			],
+			[
+				"ro",
+				"application\\config\\routes.php"
+			],
+			[
+				"rou",
+				"application\\config\\routes.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 710.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 258.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}
