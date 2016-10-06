@@ -57,7 +57,7 @@
 			],
 			[
 				"for",
-				"for	for …"
+				"for\tfor …"
 			],
 			[
 				"array_key",
@@ -156,11 +156,31 @@
 	"buffers":
 	[
 		{
+			"contents": "<!doctype html>\n<html ng-app=\"LunchCheck\" lang=\"en\">\n  <head>\n    <title>Lunch Checker</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"stylesheet\" href=\"styles/bootstrap.min.css\">\n    <script src=\"angular.min.js\"></script>\n    <script type=\"text/javascript\" src=\"app.js\"></script>\n    <style>\n      .message { font-size: 1.3em; font-weight: bold; }\n    </style> \n  </head>\n<body >\n   <div ng-controller=\"LunchController\" class=\"container\">\n     <h1>Lunch Checker</h1>\n\n         <div class=\"form-group\">\n             <input ng-style=\"textBoxStyle\" ng-model=\"menu\" id=\"lunch-menu\" type=\"text\"\n             placeholder=\"list comma separated dishes you usually have for lunch\"\n             class=\"form-control\">\n             <p> <i> Empty items won't count! </i></p>\n         </div>\n         <div class=\"form-group\">\n             <button ng-click=\"sayMessage()\" class=\"btn btn-default\">Check If Too Much</button>\n         </div>\n         <div class=\"form-group message\">\n           <!-- Your message can go here. -->\n         </div>\n        <p ng-style=\"messageStyle\"> {{ message}} </p>\n   </div>\n\n</body>\n</html>\n",
 			"file": "index.html",
+			"file_size": 1190,
+			"file_write_time": 131184273937957637,
 			"settings":
 			{
-				"buffer_size": 830,
+				"buffer_size": 1158,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 860,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "/*\nCreated By: Ariel Perucca\nCreatedDate: 2014-12-23\n*/\n\nSET ANSI_WARNINGS  OFF\nBEGIN\n\n\tDECLARE @subject nvarchar(max);\t \t\n\tDECLARE @email VARCHAR(MAX)\n\tDECLARE @status INT;\n\n\tSET @email=''\n\tSELECT  @email = @email + email +';'\n\tFROM    SUP.dbo.mail_notification\n\nSET @email = LEFT(@email,LEN(@email)-1);\n\nSELECT @status = 1 FROM(\n\t\t\t\t\t\t\tSELECT\n\t\t\t\t\t\t\t  DatabaseName\n\t\t\t\t\t\t\t  ,TableName\n\t\t\t\t\t\t\t  ,DateAdded\n\t\t\t\t\t\t\t  ,DataSizeMB\n\t\t\t\t\t\t\t  ,RowCounts\n\t\t\t\t\t\t\t  ,RANK ( ) OVER (PARTITION BY TableName ORDER BY  DateAdded DESC)AS rank\n\t\t\t\t\t\t\tFROM SUP.dbo.table_size \n\t\t\t\t\t\t\tWHERE TableName IN(  \t\t\t\t'zu_account',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'zu_amendment',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'zu_contact',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'zu_invoice',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'zu_invoiceitem',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--'zu_invoiceitemadjustment',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'zu_invoicepayment',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'zu_payment',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'zu_paymentmethod',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'zu_rateplan',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'zu_rateplancharge',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--'zu_refund',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--'zu_refundinvoicepayment',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'zu_subscription',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--INLCUDE ONLY THE MOST IMPORTANT\n\t\t\t\t\t\t\t\t\t\t\t\t\t'lp2_account',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--'lp2_activation',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'lp2_certificate',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'lp2_classroom_history',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'lp2_feedbackrequest',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'lp2_feedbackresponse',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'lp2_lessonerror',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'lp2_loggedinuserinfo',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'lp2_person',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'lp2_personcourseaudit',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'lp2_personcoursesummary',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'lp2_personprogression',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'lp2_private_class_summary_view',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'lp2_student_attendance_history',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'lp2_w2wschedule',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--NETSUITE\n\t\t\t\t\t\t\t\t\t\t\t\t\t'ns_currencyrates',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'ns_customers',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'ns_transaction_lines',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'ns_transaction_links',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'ns_transactions',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--FIVE9\n\t\t\t\t\t\t\t\t\t\t\t\t\t'fn_agent_occupancy_hourly',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'fn_call_log_hourly',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--MARKETING\n\t\t\t\t\t\t\t\t\t\t\t\t\t'ga_landing_page',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'ga_conversion_funnel',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'ga_openenglishcom_v2',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'ga_openenglishcom_v3',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'facebook_insights_destination',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'bing_file_load_final',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--SF2\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Account',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--'Campaign',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Cancellation__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Case',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'CaseComment',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'CaseHistory',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Contact',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'ContactHistory',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Freeze__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Lead',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'License_Set__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--'LiveAgentSession',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--'LiveChatTranscript',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--'LiveChatTranscriptEvent',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--'LiveChatVisitor',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Opportunity',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Product_License__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Product_License__History',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Student_Notification__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Survey_Response__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Task',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Upsell__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Upsell_Add_On__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'zqu__Quote__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Zuora__CustomerAccount__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Zuora__Payment__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Zuora__PaymentInvoice__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Zuora__PaymentMethod__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--'Zuora__Refund__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--'Zuora__RefundInvoicePayment__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Zuora__Subscription__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Zuora__SubscriptionProductCharge__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Zuora__ZInvoice__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--DWH\n\t\t\t\t\t\t\t\t\t\t\t\t\t'dim_account',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'dim_lead',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'dim_student',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'f_user_activity_daily_history',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--INTEGRATIONS\n\t\t\t\t\t\t\t\t\t\t\t\t\t'call_miner_log_files',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--'ke_report_history'\n\t\t\t\t\t\t\t\t\t\t\t\t\t'invoice_cm_log'\n\t\t\t\t\t\t\t\t\t\t\t\t\t) \n\t\t\t\t\t\t)A\n\t\t\t\t\t\tWHERE A.rank IN(1,2) -- The last and pre-last\n\t\t\t\t\t\tGROUP BY TableName, DatabaseName\n\t\t\t\t\t\tHAVING SUM(CASE WHEN A.rank=1 THEN RowCounts END)<= SUM(CASE WHEN A.rank=2 THEN RowCounts END) --> Condition to send notification\n\n\nIF @status>=1\nBEGIN -- email delivery\n\nDECLARE @xmlstatus NVARCHAR(MAX)\nDECLARE @bodystatus NVARCHAR(MAX)\n\nSET @xmlstatus =CAST((SELECT\n\t\t\t\t\t\t\t   DatabaseName AS 'td',''\n\t\t\t\t\t\t\t  ,TableName AS   'td',''\n\t\t\t\t\t\t\t  ,MAX(DateAdded) AS   'td',''\n\t\t\t\t\t\t\t  ,SUM(CASE WHEN A.rank=1 THEN RowCounts ELSE 0 END) as   'td',''\n\t\t\t\t\t\t\t  ,SUM(CASE WHEN A.rank=2 THEN RowCounts ELSE 0 END) as   'td',''\n\t\t\t\t\t\t\t  ,SUM(CASE WHEN A.rank=1 THEN DataSizeMB ELSE 0 END) as   'td',''\n\t\t\t\t\t\t\t  ,SUM(CASE WHEN A.rank=2 THEN DataSizeMB ELSE 0 END) as   'td'\n\t\t\t\t\t\tFROM(\n\t\t\t\t\t\t\tSELECT\n\t\t\t\t\t\t\t  DatabaseName\n\t\t\t\t\t\t\t  ,TableName\n\t\t\t\t\t\t\t  ,DateAdded\n\t\t\t\t\t\t\t  ,DataSizeMB\n\t\t\t\t\t\t\t  ,RowCounts\n\t\t\t\t\t\t\t  ,RANK ( ) OVER (PARTITION BY TableName ORDER BY  DateAdded DESC)AS rank\n\t\t\t\t\t\t\tFROM SUP.dbo.table_size \n\t\t\t\t\t\t\tWHERE TableName IN(  \t\t\t\t'zu_account',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'zu_amendment',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'zu_contact',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'zu_invoice',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'zu_invoiceitem',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--'zu_invoiceitemadjustment',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'zu_invoicepayment',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'zu_payment',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'zu_paymentmethod',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'zu_rateplan',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'zu_rateplancharge',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--'zu_refund',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--'zu_refundinvoicepayment',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'zu_subscription',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--INLCUDE ONLY THE MOST IMPORTANT\n\t\t\t\t\t\t\t\t\t\t\t\t\t'lp2_account',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--'lp2_activation',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'lp2_certificate',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'lp2_classroom_history',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'lp2_feedbackrequest',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'lp2_feedbackresponse',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'lp2_lessonerror',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'lp2_loggedinuserinfo',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'lp2_person',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'lp2_personcourseaudit',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'lp2_personcoursesummary',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'lp2_personprogression',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'lp2_private_class_summary_view',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'lp2_student_attendance_history',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'lp2_w2wschedule',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--NETSUITE\n\t\t\t\t\t\t\t\t\t\t\t\t\t'ns_currencyrates',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'ns_customers',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'ns_transaction_lines',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'ns_transaction_links',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'ns_transactions',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--FIVE9\n\t\t\t\t\t\t\t\t\t\t\t\t\t'fn_agent_occupancy_hourly',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'fn_call_log_hourly',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--MARKETING\n\t\t\t\t\t\t\t\t\t\t\t\t\t'ga_landing_page',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'ga_conversion_funnel',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'ga_openenglishcom_v2',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'ga_openenglishcom_v3',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'facebook_insights_destination',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'bing_file_load_final',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--SF2\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Account',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--'Campaign',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Cancellation__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Case',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'CaseComment',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'CaseHistory',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Contact',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'ContactHistory',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Freeze__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Lead',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'License_Set__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--'LiveAgentSession',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--'LiveChatTranscript',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--'LiveChatTranscriptEvent',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--'LiveChatVisitor',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Opportunity',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Product_License__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Product_License__History',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Student_Notification__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Survey_Response__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Task',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Upsell__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Upsell_Add_On__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'zqu__Quote__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Zuora__CustomerAccount__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Zuora__Payment__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Zuora__PaymentInvoice__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Zuora__PaymentMethod__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--'Zuora__Refund__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--'Zuora__RefundInvoicePayment__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Zuora__Subscription__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Zuora__SubscriptionProductCharge__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'Zuora__ZInvoice__c',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--DWH\n\t\t\t\t\t\t\t\t\t\t\t\t\t'dim_account',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'dim_lead',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'dim_student',\n\t\t\t\t\t\t\t\t\t\t\t\t\t'f_user_activity_daily_history',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--INTEGRATIONS\n\t\t\t\t\t\t\t\t\t\t\t\t\t'call_miner_log_files',\n\t\t\t\t\t\t\t\t\t\t\t\t\t--'ke_report_history'\n\t\t\t\t\t\t\t\t\t\t\t\t\t'invoice_cm_log'\n\t\t\t\t\t\t\t\t\t\t\t\t\t) \n\t\t\t\t\t\t)A\n\t\t\t\t\t\tWHERE A.rank IN(1,2) -- The last and pre-last\n\t\t\t\t\t\tGROUP BY TableName, DatabaseName\n\t\t\t\t\t\tHAVING SUM(CASE WHEN A.rank=1 THEN RowCounts END)<= SUM(CASE WHEN A.rank=2 THEN RowCounts END) --> Condition to send notification\n\t\t\t\t\t\tFOR XML PATH('tr'), ELEMENTS ) AS NVARCHAR(MAX));\n\nSET @bodystatus ='<html><body><H3>WARNING - Table size does not growth</H3>\n<table border = 1> \n<tr>\n<th> DatabaseName </th> \n<th> TableName </th> \n<th> Last DateAdded</th> \n<th> Last RowCounts</th> \n<th> Prev RowCounts</th> \n<th> Last DataSizeMB</th>\n<th> Prev DataSizeMB</th>  \n</tr>'    \n \nSET @bodystatus = @bodystatus + @xmlstatus +'</table></body></html>'\n\nEXEC msdb.dbo.sp_send_dbmail\n@profile_name = 'Email', \n@body = @bodystatus,\n@body_format ='HTML',\n@recipients = @email, \n@subject = 'WARNING - Table size does not growth';\nEND\n\nEND",
+			"settings":
+			{
+				"buffer_size": 8407,
+				"line_ending": "Windows",
+				"name": "/*"
 			}
 		}
 	],
@@ -171,10 +191,26 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 110.0,
-		"last_filter": "projec",
+		"height": 87.0,
+		"last_filter": "sql",
 		"selected_items":
 		[
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"toggle sta",
+				"View: Toggle Status Bar"
+			],
 			[
 				"projec",
 				"Project: Save As"
@@ -184,11 +220,7 @@
 				"View: Toggle Tabs"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"rename	",
+				"rename\t",
 				"ANF: Rename File"
 			],
 			[
@@ -214,10 +246,6 @@
 			[
 				"anf",
 				"ANF: Delete File"
-			],
-			[
-				"toggle sta",
-				"View: Toggle Status Bar"
 			],
 			[
 				"togg",
@@ -284,16 +312,12 @@
 				"Set Syntax: PHP"
 			],
 			[
-				"markdo	",
+				"markdo\t",
 				"Set Syntax: Markdown"
 			],
 			[
 				"python",
 				"Set Syntax: Python"
-			],
-			[
-				"sql",
-				"Set Syntax: SQL"
 			],
 			[
 				"stop de",
@@ -565,10 +589,12 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/kingsun/workspace/ng-Coursera/ng-Coursera/module1-solution/assignment1-starter-code"
 	],
 	"file_history":
 	[
+		"/E/killvlc.bat",
+		"/C/Users/kingsun/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/kingsun/workspace/ng-Coursera/ng-Coursera/module1-solution/assignment1-starter-code/angular.min.js",
 		"/C/Users/kingsun/workspace/Code/Laravel/.env",
 		"/C/Users/kingsun/.gitconfig",
 		"/C/Users/kingsun/.ssh/github_rsa.pub",
@@ -693,14 +719,11 @@
 		"/C/wamp/www/delivery/js/main.js",
 		"/C/wamp/www/delivery/assets/js/build.config.js",
 		"/C/wamp/www/delivery/assets/js/app.js",
-		"/C/wamp/www/delivery/assets/js/main.js",
-		"/C/wamp/www/delivery/assets/js/lazy/bower.json",
-		"/C/wamp/www/delivery/assets/js/common.js",
-		"/C/wamp/www/delivery/assets/js/app-control.js"
+		"/C/wamp/www/delivery/assets/js/main.js"
 	],
 	"find":
 	{
-		"height": 29.0
+		"height": 43.0
 	},
 	"find_in_files":
 	{
@@ -719,6 +742,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"40",
+			"ns_tra",
+			"test",
+			"jacob",
 			"conf",
 			"vendor",
 			"37,43,57",
@@ -842,11 +869,7 @@
 			"impersonate_login",
 			"error",
 			"Error: Cannot create object",
-			"object",
-			"error",
-			"create",
-			"var_dump",
-			"array_to_send"
+			"object"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -873,7 +896,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -882,30 +905,92 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 830,
+						"buffer_size": 1158,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								560,
-								560
+								340,
+								340
 							]
 						],
 						"settings":
 						{
 							"bs_sintax": "html",
 							"buffer_scroll_name": "c665b812",
+							"spell_check": false,
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 52.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 860,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								194,
+								194
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "5ddb6b79",
+							"spell_check": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8407,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								225,
+								225
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/*",
+							"bs_sintax": "plain text",
+							"syntax": "Packages/SQL/SQL.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 81.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1215,13 +1300,17 @@
 	"selected_group": 0,
 	"settings":
 	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 258.0,
-	"status_bar_visible": false,
+	"status_bar_visible": true,
 	"template_settings":
 	{
 	}
