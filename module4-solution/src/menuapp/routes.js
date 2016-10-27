@@ -27,7 +27,7 @@
 		 		}
 		 	})
 
-		 .state('items',{
+		 .state('categories.items',{
 		 	url: '/items/{itemId}',
 		 	templateUrl: 'src/menuapp/templates/items.template.html',
 		 	controller: 'ItemsController as itemCtrl',

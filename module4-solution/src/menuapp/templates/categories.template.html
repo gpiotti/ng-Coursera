@@ -1,7 +1,11 @@
 <h2> Select a Category to view it's items </h2>
+<div style="float:left;">
 <ul>
 	<li ng-repeat="category in catCtrl.categories">
-		<a ui-sref="items({itemId: category.short_name})"> {{ category.name }} </a>
+		<a ui-sref="categories.items({itemId: category.short_name})"> {{ category.name }} </a>
 	</li>
 </ul>
-
+</div>
+<div style="float:left;">
+<ui-view></ui-view>
+</div>
